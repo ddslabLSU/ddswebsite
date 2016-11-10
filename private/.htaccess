@@ -1,4 +1,0 @@
-AuthName "Private Area"
-AuthType Basic
-AuthUserFile /.htpasswd
-Require valid-user
