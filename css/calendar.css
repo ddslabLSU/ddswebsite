@@ -20,7 +20,7 @@
 
 
 /* Times */
-.agenda-presenter { width: 180px; } 
+.agenda-presenter { width: 160px; } 
 
 
 /* Events */
@@ -28,5 +28,30 @@
 .agenda .agenda-events .agenda-event {  } 
 
 @media (max-width: 767px) {
+	.agenda .agenda-date .dayofmonth {
+  
+  font-size: 16px;
+  padding: 1px;
+  
+}
+
+.agenda-time .agenda-presenter{
+	font-size: 12px;
+}
+
+.agenda-presenter { 
+	width: 120px; 
+} 
+
+.agenda-events { 
+	width: 160px; 
+} 
+
+.dayofweek {
+	display: none; 
+}
+.agenda .agenda-date .shortdate {
+  float: left;
+}
     
 }
